@@ -31,7 +31,7 @@ if args.key and args.val:
 
 elif args.key:
     if not os.path.exists(storage_path):
-        print(None) 
+        print(None)
     else:
         with open(storage_path, "r") as f:
             data = json.load(f)
